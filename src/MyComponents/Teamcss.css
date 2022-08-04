@@ -1,0 +1,29 @@
+.tboxx{
+    /* display: flex;
+    flex-direction: column; */
+}
+.inputclass{
+    display: flex;
+    flex-direction: column;
+}
+.tic{
+    display: flex;
+    /* flex-direction: column; */
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    /* width: 65vw; */
+    /* text-align: center; */
+    /* justify-content: space-around; */
+}
+.input{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+.tbutton{
+    height: 10vh;
+    width: 10vw;
+    background-color: aquamarine;
+  }

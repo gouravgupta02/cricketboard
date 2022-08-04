@@ -1,0 +1,59 @@
+.hbox{
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+    background-color: aqua;
+    height: 100vh;
+}
+.hbox1{
+    top: 25vh;
+    position: relative;
+    display: flex;
+    height: 35vh;
+    width: 50vw;
+    background-color: blue;
+    flex-direction: column;
+}
+
+.smallbox{
+    /* top: 25vh;
+    position: relative; */
+    padding-top: 30px;
+    display: flex;
+    height: 25vh;
+    width: 50vw;
+    justify-content: space-around;
+    background-color: chartreuse;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+}
+.input{
+    height: 30px;
+    width: 100px;
+}
+.vsmallbox{
+    background-color: chartreuse;
+    
+}
+.buttonsh{
+    height: 10vh;
+    width: 50vw;
+    background-color: aquamarine;
+    padding-top: 1px;
+    /* text-decoration: none; */
+}
+.buttonsh:hover{
+    background-color: brown;
+    color: #fff;
+}
+.navbtn{
+    text-decoration: none;
+    text-align: center;
+    /* padding-top: 50px; */
+}
+.navbtn:hover{
+    color: #fff;
+}
